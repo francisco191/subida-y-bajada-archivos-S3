@@ -48,4 +48,4 @@ En caso de flujo feliz, creo el objeto parametrosPutObject con las propiedades B
 
 Luego se llamara al metodo GetObject para descargar un objeto de uno de nuestros buckets de S3, al que se le pasará como parametro el objeto anteriormente creado y un callback. En caso de no existir ningun error tendremos el archivo subido a nuestro bucket de S3.
 
-PD: A modo de prueba descargue el logo de MeLi desde S3 a mi máquina, asi como tambien subí de mi máquina a S3 el archivo "mensaje.txt".
+PD: A modo de prueba descargue elarchivo Logo-Mercadolibre.jpg desde S3 a mi máquina, asi como tambien subí de mi máquina a S3 el archivo "mensaje2.txt".
