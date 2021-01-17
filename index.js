@@ -1,8 +1,8 @@
 const AWS = require("aws-sdk");  
 const fs = require("fs"); 
 const s3 = new AWS.S3({ 
-    accessKeyId: "AKIAWIHHKH2WB5QKR4OZ",
-    secretAccessKey: "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"
+    accessKeyId: "AKIAWIHHKH2WM2IUNYHU",
+    secretAccessKey: "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"
 });           
 
 // DESCARGAR ARCHIVOS DEL S3 A MI MÁQUINA:
