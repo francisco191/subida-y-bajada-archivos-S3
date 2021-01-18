@@ -30,13 +30,13 @@ s3.getObject(parametrosGetObject, (err, data) => {
 
 // SUBIR ARCHIVOS DE MI MÁQUINA A S3
 
-fs.readFile("mensaje2.txt", (err, data) => {
+fs.readFile("mensaje3.txt", (err, data) => {
     if(err) {
         throw err;
     } else {
         var parametrosPutObject = {
             Bucket: "repoarchivosmla",
-            Key: "mensaje2.txt",
+            Key: "mensaje3.txt",
             Body: data
         }
         s3.putObject(parametrosPutObject, (err, data) => {
