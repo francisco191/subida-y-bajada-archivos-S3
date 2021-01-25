@@ -9,7 +9,7 @@ const s3 = new AWS.S3({
 
 let parametrosGetObject = {
     Bucket: "repoarchivosmla",
-    Key:"Logo-Mercadolibre.jpg" 
+    Key:"Fulfillment-Mercadolibre.jpg" 
 }
 
 s3.getObject(parametrosGetObject, (err, data) => { 
@@ -30,7 +30,7 @@ s3.getObject(parametrosGetObject, (err, data) => {
 
 // SUBIR ARCHIVOS DE MI MÁQUINA A S3
 
-fs.readFile("mensaje3.txt", (err, data) => {
+/*fs.readFile("mensaje3.txt", (err, data) => {
     if(err) {
         throw err;
     } else {
@@ -47,4 +47,4 @@ fs.readFile("mensaje3.txt", (err, data) => {
             }
         })
     }
-})
+})*/
